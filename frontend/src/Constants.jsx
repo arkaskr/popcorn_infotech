@@ -78,6 +78,27 @@ import it30 from "./assets/incometax/it30.jpg";
 import it31 from "./assets/incometax/it31.jpg";
 import it32 from "./assets/incometax/it32.jpg";
 
+import l1 from "./assets/loan/l1.png";
+import l2 from "./assets/loan/l2.png";
+import l3 from "./assets/loan/l3.jpg";
+import l4 from "./assets/loan/l4.png";
+import l5 from "./assets/loan/l5.png";
+import l6 from "./assets/loan/l6.png";
+import l7 from "./assets/loan/l7.jpg";
+import l8 from "./assets/loan/l8.png";
+import l9 from "./assets/loan/l9.png";
+import l10 from "./assets/loan/l10.png";
+import l11 from "./assets/loan/l11.jpg";
+import l12 from "./assets/loan/l12.jpg";
+import l13 from "./assets/loan/l13.jpg";
+
+import i1 from "./assets/insurance/i1.jpg";
+import i2 from "./assets/insurance/i2.jpg";
+import i3 from "./assets/insurance/i3.jpg";
+import i4 from "./assets/insurance/i4.jpg";
+import i5 from "./assets/insurance/i5.jpg";
+import i6 from "./assets/insurance/i6.jpg";
+
 export const SERVICES = [
   {
     id: "income-tax",
@@ -132,7 +153,7 @@ export const SERVICES = [
     ],
   },
   {
-    id: "mediclaim",
+    id: "insurance",
     name: "Mediclaim",
     icon: <HeartPulse className="w-8 h-8" />,
     imageUrl: mediclaim,
@@ -322,6 +343,113 @@ export const INCOME_TAX_SERVICES = [
   { id: "form-10ba", name: "Form 10BA", imageUrl: it30 },
   { id: "income-tax-audit", name: "Income Tax Audit", imageUrl: it31 },
   { id: "statutory-audit", name: "Statutory Company Audit", imageUrl: it32 },
+];
+
+export const LOAN_SERVICES = [
+  {
+    id: "l1",
+    name: "Personal Loan",
+    imageUrl: l1,
+  },
+  {
+    id: "l2",
+    name: "Buisness Loan",
+    imageUrl: l2,
+  },
+  {
+    id: "l3",
+    name: "Home Loan",
+    imageUrl: l3,
+  },
+  {
+    id: "l4",
+    name: "MSME Loan",
+    imageUrl: l4,
+  },
+  {
+    id: "l5",
+    name: "Agriculture Loan",
+    imageUrl: l5,
+  },
+  {
+    id: "l6",
+    name: "Micro Finance (Self Employed)",
+    imageUrl: l6,
+  },
+  {
+    id: "l7",
+    name: "Micro Finance (Salaried)",
+    imageUrl: l7,
+  },
+  {
+    id: "l8",
+    name: "Loan Against Property",
+    imageUrl: l8,
+  },
+  {
+    id: "l9",
+    name: "Owned Car Refinance",
+    imageUrl: l9,
+  },
+  {
+    id: "l10",
+    name: "Used Car Loan",
+    imageUrl: l10,
+  },
+  {
+    id: "l11",
+    name: "Mudra Loan",
+    imageUrl: l11,
+  },
+  {
+    id: "l12",
+    name: "Unsecured Buisness Loan",
+    imageUrl: l12,
+  },
+  {
+    id: "l13",
+    name: "Cibil Report",
+    imageUrl: l13,
+  },
+];
+
+export const INSURANCE_SERVICES = [
+  {
+    id: "i1",
+    name: "Vehicle Insurance",
+    description:"Vehicle insurance (also known as car insurance, motor insurance, or auto insurance) is insurance for cars, trucks, motorcycles, and other road vehicles. Its primary use is to provide financial protection against physical damage or bodily injury resulting from traffic collisions and against liability that could also arise from incidents in a vehicle. Vehicle insurance may additionally offer financial protection against theft of the vehicle, and against damage to the vehicle sustained from events other than traffic collisions, such as keying, weather or natural disasters, and damage sustained by colliding with stationary objects. The specific terms of vehicle insurance vary with legal regulations in each region.",
+    imageUrl: i1,
+  },
+  {
+    id: "i2",
+    name: "Health Insurance",
+    description:"Most Comprehensive Health Insurance. Enhance Your Insurance Coverage. Get Quote! Plans With Best Coverage & Crafted To Maintain Healthy Lifestyle. Feature Loaded. 2 Different Plan Options. Value Added Benefits. Hassle free claims. Private Hospitalization.",
+    imageUrl: i2,
+  },
+  {
+    id: "i3",
+    name: "Travel Insurance",
+    description:"Loss of Passport & Baggage covered, 24/7 Emergency Helpline. Buy Policy Online in 5 mins. No Medical Check-up & Paperwork. Affordable rates & quick claim settlement. Buy in 5 mins. Single+Multi Trip Policy. Dental Coverage. Worldwide Claims Assist. Trip Cancellation Cover.",
+    imageUrl: i3,
+  },
+  {
+    id: "i4",
+    name: "Term Life Insurance",
+    description:"Term life insurance or term assurance is life insurance that provides coverage at a fixed rate of payments for a limited period of time, the relevant term.",
+    imageUrl: i4,
+  },
+  {
+    id: "i5",
+    name: "Home Insurance",
+    description:"Home insurance, also commonly called homeowner's insurance is a type of property insurance that covers a private residence.",
+    imageUrl: i5,
+  },
+  {
+    id: "i6",
+    name: "Buisness Insurance",
+    description:"Insurance is a means of protection from financial loss. It is a form of risk management, primarily used to hedge against the risk of a contingent or uncertain loss. An entity which provides insurance is known as an insurer, insurance company, insurance carrier or underwriter.",
+    imageUrl: i6,
+  },
 ];
 
 export const TESTIMONIALS = [

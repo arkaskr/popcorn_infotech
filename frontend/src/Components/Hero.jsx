@@ -23,7 +23,7 @@ const banners = [
     title: "Secure Your Future with Mutual Funds",
     subtitle: "Customized wealth management for long-term growth.",
     image:
-      "https://images.unsplash.com/photo-1611974717484-954f056e40d8?auto=format&fit=crop&q=80&w=2000",
+      "https://images.unsplash.com/photo-1559526324-593bc073d938?auto=format&fit=crop&q=80&w=2000",
     cta: "Start SIP",
   },
 ];
@@ -52,7 +52,7 @@ const Hero = () => {
             index === current ? "opacity-100" : "opacity-0"
           }`}
         >
-          <div className="absolute inset-0 bg-gradient-to-r from-white/30 to-white/40 z-10" />
+          <div className="absolute inset-0 bg-gradient-to-r z-10" />
 
           <img
             src={banner.image}
@@ -62,10 +62,10 @@ const Hero = () => {
 
           <div className="absolute inset-0 z-20 flex items-center justify-center text-center px-4">
             <div className="max-w-4xl animate-fade-in-up">
-              <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
+              <h1 className="text-4xl lg:text-6xl font-bold text-gray-50 mb-6">
                 {banner.title}
               </h1>
-              <p className="text-xl lg:text-2xl text-gray-700 mb-8">
+              <p className="text-xl lg:text-2xl text-gray-100 mb-8">
                 {banner.subtitle}
               </p>
               <button className="bg-gradient-to-r from-[#3B82F6] to-[#6366F1] text-white px-8 py-3 rounded-full text-lg font-bold hover:opacity-90 transition-all transform hover:scale-105 shadow-lg">

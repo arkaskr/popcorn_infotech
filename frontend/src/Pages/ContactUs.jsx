@@ -10,41 +10,43 @@ import {
   Heart,
   CreditCard,
 } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const CONTACT_ENTITIES = [
   {
-    title: "MB Suvidha Kendra Franchise",
+    title: "Gst registration",
     icon: <Store className="w-10 h-10" />,
-    link: "#",
+    id: "service/gst-registration",
   },
   {
-    title: "MB Share Broking",
+    title: "Mutual Funds",
     icon: <TrendingUp className="w-10 h-10" />,
-    link: "#",
+    id: "service/mutual-fund",
   },
   {
-    title: "NSDL Payment Bank BC",
+    title: "Loan",
     icon: <Landmark className="w-10 h-10" />,
-    link: "#",
+    id: "service/loan",
   },
   {
-    title: "MB CSC",
+    title: "Mediclaim",
     icon: <Monitor className="w-10 h-10" />,
-    link: "#",
+    id: "service/insurance",
   },
   {
-    title: "Ayushman Bharat Agency",
+    title: "Insurance",
     icon: <Heart className="w-10 h-10" />,
-    link: "#",
+    id: "service/insurance",
   },
   {
-    title: "MB ATM",
+    title: "Income Tax",
     icon: <CreditCard className="w-10 h-10" />,
-    link: "#",
+    id: "service/income-tax",
   },
 ];
 
 const Contact = () => {
+  const navigate = useNavigate();
   return (
     <div className="flex flex-col bg-white min-h-screen pb-20 text-gray-700">
       {/* Page Header */}
@@ -64,6 +66,7 @@ const Contact = () => {
             {CONTACT_ENTITIES.map((item, idx) => (
               <div
                 key={idx}
+                onClick={() => navigate(`/${item.id}`)}
                 className="bg-white p-8 rounded-2xl border border-gray-200 shadow-sm hover:shadow-xl hover:border-[#3B82F6]/30 transition-all group cursor-pointer"
               >
                 <div className="flex items-center gap-6">

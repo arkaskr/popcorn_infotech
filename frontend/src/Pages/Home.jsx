@@ -11,11 +11,7 @@ import {
   Quote,
 } from "lucide-react";
 import Hero from "../Components/Hero";
-import {
-  SERVICES,
-  BENEFITS,
-  PARTNERS,
-} from "../Constants";
+import { SERVICES, BENEFITS, PARTNERS } from "../Constants";
 
 import ss1 from "../assets/success_stories/ss1.jpg";
 import ss2 from "../assets/success_stories/ss2.jpg";
@@ -267,7 +263,7 @@ const Home = () => {
       </section>
 
       {/* Success Stories Section */}
-      <section className="py-24 bg-white overflow-hidden">
+      {/* <section className="py-24 bg-white overflow-hidden">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold lg:text-5xl font-black text-gray-900">
@@ -278,7 +274,7 @@ const Home = () => {
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 max-w-[1500px] mx-auto">
-            {/* Card 1 */}
+            
             <div className="flex flex-col sm:flex-row h-auto shadow-2xl rounded-2xl overflow-hidden border border-gray-200 bg-white group">
               <div className="sm:w-2/5 bg-gray-50 p-4 flex items-center justify-center relative overflow-hidden">
                 <div className="relative z-10 w-full h-[240px] border-4 border-[#3B82F6] shadow-xl overflow-hidden rounded-xl group-hover:scale-105 transition-transform duration-500">
@@ -309,7 +305,6 @@ const Home = () => {
               </div>
             </div>
 
-            {/* Card 2 */}
             <div className="flex flex-col sm:flex-row h-auto shadow-2xl rounded-2xl overflow-hidden border border-gray-200 bg-white group">
               <div className="sm:w-2/5 bg-gray-50 p-4 flex items-center justify-center relative overflow-hidden">
                 <div className="relative z-10 w-full h-[240px] border-4 border-[#3B82F6] shadow-xl overflow-hidden rounded-xl group-hover:scale-105 transition-transform duration-500">
@@ -340,7 +335,6 @@ const Home = () => {
               </div>
             </div>
 
-            {/* Card 3 */}
             <div className="flex flex-col sm:flex-row-reverse h-auto shadow-2xl rounded-2xl overflow-hidden border border-gray-200 bg-white group">
               <div className="sm:w-2/5 bg-gray-50 p-4 flex items-center justify-center relative overflow-hidden">
                 <div className="relative z-10 w-full h-[240px] border-4 border-[#3B82F6] shadow-xl overflow-hidden rounded-xl group-hover:scale-105 transition-transform duration-500">
@@ -372,7 +366,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };

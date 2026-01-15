@@ -78,7 +78,7 @@ const GstRegistration = () => {
             {GST_SERVICES.map((service) => (
               <div
                 key={service.id}
-                className="bg-white rounded-xl shadow hover:shadow-lg transition border"
+                className="bg-white rounded-xl shadow hover:shadow-lg transition"
               >
                 <div className="p-6 flex justify-center">
                   <img

@@ -92,7 +92,7 @@ const About = () => {
       </section>
 
       {/* Core Team */}
-      <section className="py-24 bg-gray-50">
+      {/* <section className="py-24 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl lg:text-6xl font-black text-gray-900 tracking-tighter">
@@ -102,7 +102,7 @@ const About = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-6xl mx-auto">
-            {/* Director 1 */}
+            
             <div className="bg-white rounded-[2.5rem] overflow-hidden shadow-xl hover:shadow-2xl transition-all border border-gray-200">
               <div className="aspect-[4/3] overflow-hidden">
                 <img
@@ -127,7 +127,7 @@ const About = () => {
               </div>
             </div>
 
-            {/* Director 2 */}
+            
             <div className="bg-white rounded-[2.5rem] overflow-hidden shadow-xl hover:shadow-2xl transition-all border border-gray-200">
               <div className="aspect-[4/3] overflow-hidden">
                 <img
@@ -153,7 +153,7 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="py-16 bg-white overflow-hidden border-y border-gray-200">
         <div className="container mx-auto px-4 text-center mb-10">

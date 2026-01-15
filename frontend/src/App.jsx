@@ -9,6 +9,8 @@ import Login from "./Pages/Login";
 import { Toaster } from "react-hot-toast";
 import GstRegistration from "./Pages/GstRegistration";
 import IncomeTax from "./Pages/IncomeTax";
+import Loan from "./Pages/Loan";
+import Insurance from "./Pages/Insurance";
 
 const App = () => {
   return (
@@ -45,6 +47,8 @@ const App = () => {
         <Route path="/login" element={<Login />} />
 
         <Route path="/service/income-tax" element={<IncomeTax />} />
+        <Route path="/service/loan" element={<Loan />} />
+        <Route path="/service/insurance" element={<Insurance />} />
         <Route path="/service/gst-registration" element={<GstRegistration />} />
       </Routes>
       <Footer />
